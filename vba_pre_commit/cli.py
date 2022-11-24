@@ -4,7 +4,8 @@ import click
 
 
 @click.command()
-def main(args=None):
+@click.argument('files', type=str, nargs=-1)
+def main(files):
     """Console script for vba_pre_commit."""
     click.echo("hello")
     return 0
