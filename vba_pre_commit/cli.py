@@ -51,6 +51,8 @@ def main(files):
                 parse(os.path.join(root, f))
                 with ZipFile(os.path.join(root, "src.vba", f"{f}.zip"), 'w') as zipf:
                     zipf.write(os.path.join(root, f), arcname=f)
+
+    os.system('git add ./src.vba/*')
     return 0
 
 if __name__ == "__main__":

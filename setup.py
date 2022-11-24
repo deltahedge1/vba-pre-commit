@@ -44,6 +44,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/deltahedge1/vba_pre_commit',
-    version='0.1.0',
+    version='0.0.0',
     zip_safe=False,
 )
