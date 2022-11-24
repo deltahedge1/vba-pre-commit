@@ -1,0 +1,5 @@
+-   id: vba-pre-commit
+    name: VBA pre commit
+    description: Export all vba code and zip up the file
+    entry: vba_pre_commit
+    language: python
